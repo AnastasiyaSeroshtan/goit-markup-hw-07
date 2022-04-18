@@ -1,0 +1,31 @@
+.activity-list {
+    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+  
+  .activity-list-item {
+    flex-basis: calc((100% - 90px) / 3);
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+  
+  .activity-list-img {
+    position: relative;
+  }
+  
+  .activity-list-description {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--light-text-color);
+    background: var(--bg-activity-section);
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
