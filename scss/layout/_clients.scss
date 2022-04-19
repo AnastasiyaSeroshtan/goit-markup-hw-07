@@ -2,7 +2,7 @@
     display: flex;
   }
   
-  .clients-list-item {
+  .clients-list__item {
     margin-right: 30px;
 
     &:last-child {
@@ -10,7 +10,7 @@
     }
   }
   
-  .clients-list-link {
+  .clients-list__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -26,11 +26,11 @@
     }
   }
 
-  .clients-list-link-icon {
+  .clients-list__icon {
     fill: var(--icon-social-color);
 
-    .clients-list-link:hover &,
-    .clients-list-link:focus & {
+    .clients-list__link:hover &,
+    .clients-list__link:focus & {
       fill: var(--accent-color);
     }
   }

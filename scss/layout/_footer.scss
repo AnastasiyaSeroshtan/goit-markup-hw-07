@@ -12,8 +12,6 @@
     align-items: baseline;
   }
   
-  
-  
   .footer-address {
     margin-top: 20px;
     font-style: normal;
@@ -54,24 +52,11 @@
     color: var(--light-text-color);
   }
   
-  .subscription-list {
-    margin-left: 0;
-    margin-right: 0;
-  }
+ 
+  // .subscription-list-link {
+  //   background: rgba(255, 255, 255, 0.1);
+  // }
   
-  .subscription-list-link {
-    background: rgba(255, 255, 255, 0.1);
-  }
   
-  .subscription-list-item {
-    margin-right: 10px;
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
   
-  .subscription-list-icon {
-    fill: var(--light-text-color);
-  }
   
