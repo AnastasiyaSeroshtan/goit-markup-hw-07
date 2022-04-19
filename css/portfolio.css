@@ -207,11 +207,11 @@ img {
   color: var(--accent-color);
 }
 
-.active-page {
+.nav-list__link_active-page {
   color: var(--accent-color);
 }
 
-.active-page::after {
+.nav-list__link_active-page::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -225,8 +225,11 @@ img {
 
 .contact-list {
   display: flex;
-  margin-left: auto;
   align-items: center;
+}
+
+.header__contact-list {
+  margin-left: auto;
 }
 
 .contact-list__item {
