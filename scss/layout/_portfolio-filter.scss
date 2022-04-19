@@ -1,11 +1,11 @@
-.portfolio-filter-list {
+.portfolio-filter {
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
-  .portfolio-filter-list-item {
+  .portfolio-filter__item {
     margin-right: 8px;
 
     &:last-child {
@@ -13,7 +13,7 @@
     }
   }
   
-  .portfolio-list-btn {
+  .portfolio-filter__btn {
     max-width: 145px;
     padding: 6px 22px;
     border: 1px solid transparent;
@@ -36,7 +36,7 @@
       }
   }
   
-  .active-portfolio-list-btn {
+  .portfolio-filter__btn_active {
     color: var(--light-text-color);
     background-color: var(--accent-color);
   }
