@@ -31,8 +31,7 @@
   
   .footer-address-list-link {
     text-decoration: none;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, 400, 1.71);
     color: var(--light-text-color);
     transition: color var(--transition-duration) var(--transition-timing-function);
   }
@@ -52,9 +51,7 @@
   
   .subscription {
     margin-bottom: 30px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 700, 1.14);
     text-transform: uppercase;
     color: var(--light-text-color);
   }

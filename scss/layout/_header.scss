@@ -25,9 +25,7 @@
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 500, 1.14);
     letter-spacing: 0.02em;
     transition: color var(--transition-duration) var(--transition-timing-function);
 
@@ -73,8 +71,7 @@
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    font-size: 14px;
-    line-height: 1.14;
+    @include font(14px, 500, 1.14);
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
   

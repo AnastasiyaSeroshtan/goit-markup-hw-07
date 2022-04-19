@@ -1,8 +1,6 @@
 .contact-form-name {
     margin-bottom: 12px;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 1.15;
+    @include font(20px, 700, 1.15);
     text-align: center;
     color: var(--primary-text-color);
   }
@@ -14,8 +12,7 @@
   .contact-form-label-data {
     margin-bottom: 4px;
     display: inline-block;
-    font-size: 12px;
-    line-height: 1.17;
+    @include font(12px, 400, 1.17);
     letter-spacing: 0.01em;
     color: var(--secondary-text-color);
   }
@@ -48,8 +45,6 @@
     }
   }
   
-  
-  
   .contact-form-icon {
     position: absolute;
     left: 12px;
@@ -80,9 +75,7 @@
     }
 
     &::placeholder {
-      font-weight: 400;
-      font-size: 12px;
-      line-height: 1.17;
+      @include font(12px, 400, 1.17);
       letter-spacing: 0.01em;
       color: rgba(117, 117, 117, 0.5);
     }
@@ -134,9 +127,7 @@
   
   .contact-form-checkbox-label {
     margin-left: 8px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, 400, 1.71);
     color: var(--secondary-text-color);
   }
   

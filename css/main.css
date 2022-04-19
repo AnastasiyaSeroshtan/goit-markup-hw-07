@@ -91,8 +91,8 @@ img {
   display: block;
   margin-right: 93px;
   font-family: var(--secondary-font-family);
-  font-weight: 700;
   font-size: 26px;
+  font-weight: 700;
   line-height: 1.19;
   color: var(--dark-text-color);
 }
@@ -106,8 +106,8 @@ img {
   padding: 10px 32px;
   border: none;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.87;
   align-items: center;
   letter-spacing: 0.06em;
@@ -124,10 +124,10 @@ img {
 }
 
 .title {
-  margin-bottom: 50px;
-  font-weight: 700;
   font-size: 36px;
+  font-weight: 400;
   line-height: 1.17;
+  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -219,8 +219,8 @@ img {
 
 .contact-form-name {
   margin-bottom: 12px;
-  font-weight: 700;
   font-size: 20px;
+  font-weight: 700;
   line-height: 1.15;
   text-align: center;
   color: var(--primary-text-color);
@@ -234,6 +234,7 @@ img {
   margin-bottom: 4px;
   display: inline-block;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
@@ -297,8 +298,8 @@ img {
 }
 
 .contact-form-message::placeholder {
-  font-weight: 400;
   font-size: 12px;
+  font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -351,8 +352,8 @@ img {
 
 .contact-form-checkbox-label {
   margin-left: 8px;
-  font-weight: 400;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -395,8 +396,8 @@ img {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  font-weight: 500;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   transition: color var(--transition-duration) var(--transition-timing-function);
@@ -443,6 +444,7 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   font-size: 14px;
+  font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
@@ -476,8 +478,8 @@ img {
 
 .hero-title {
   margin-bottom: 30px;
-  font-weight: 900;
   font-size: 44px;
+  font-weight: 900;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -515,6 +517,7 @@ img {
 .benefits-list-title {
   margin-bottom: 10px;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   text-align: left;
@@ -522,6 +525,7 @@ img {
 
 .benefits-description {
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -547,8 +551,8 @@ img {
   left: 0;
   bottom: 0;
   width: 100%;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
@@ -584,8 +588,8 @@ img {
 
 .team-list-title {
   margin-bottom: 10px;
-  font-weight: 500;
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.19;
   text-align: center;
 }
@@ -593,6 +597,7 @@ img {
 .team-list-description {
   margin-bottom: 16px;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.19;
   text-align: center;
   color: var(--secondary-text-color);
@@ -669,6 +674,7 @@ img {
 .footer-address-list-link {
   text-decoration: none;
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.71;
   color: var(--light-text-color);
   transition: color var(--transition-duration) var(--transition-timing-function);
@@ -689,8 +695,8 @@ img {
 
 .subscription {
   margin-bottom: 30px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--light-text-color);
@@ -743,13 +749,14 @@ img {
   background-color: var(--dark-background-color);
   color: var(--footer-form-text);
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   align-items: center;
 }
 
 .subscribe-form-email::placeholder {
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.25;
   align-items: center;
   letter-spacing: 0.03em;
@@ -765,8 +772,8 @@ img {
   min-width: 200px;
   border: none;
   border-radius: 4px;
-  font-weight: 700;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
