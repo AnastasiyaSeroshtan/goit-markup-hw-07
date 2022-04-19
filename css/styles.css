@@ -135,24 +135,20 @@
 }
 
 .subscription-list {
-  display: flex;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .subscription-list-link {
-  margin-right: 10px;
-  display: flex;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.subscription-list-link:hover,
-.subscription-list-link:focus {
-  background-color: var(--accent-color);
+.subscription-list-item {
+  margin-right: 10px;
+}
+
+.subscription-list-item:last-child {
+  margin-right: 0;
 }
 
 .subscription-list-icon {
