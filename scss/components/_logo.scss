@@ -1,11 +1,17 @@
-.logo-link {
+.logo {
     display: block;
-    margin-right: 93px;
     font-family: var(--secondary-font-family);
     @include font(26px, 700, 1.19);
     color: var(--dark-text-color);
   }
+
+  .header__logo {
+    margin-right: 93px;
+  }
   
-  .logo-text {
+  .logo__text {
     color: var(--accent-color);
+  }
+  .logo__text-footer {
+    color: var(--light-text-color);
   }

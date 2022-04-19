@@ -87,9 +87,8 @@ img {
   display: block;
 }
 
-.logo-link {
+.logo {
   display: block;
-  margin-right: 93px;
   font-family: var(--secondary-font-family);
   font-size: 26px;
   font-weight: 700;
@@ -97,8 +96,16 @@ img {
   color: var(--dark-text-color);
 }
 
-.logo-text {
+.header__logo {
+  margin-right: 93px;
+}
+
+.logo__text {
   color: var(--accent-color);
+}
+
+.logo__text-footer {
+  color: var(--light-text-color);
 }
 
 .btn {
@@ -383,15 +390,15 @@ img {
   align-items: center;
 }
 
-.nav-header-list-item {
+.nav-list__item {
   margin-right: 50px;
 }
 
-.nav-header-list-item:last-child {
+.nav-list__item:last-child {
   margin-right: 0;
 }
 
-.nav-list-link {
+.nav-list__link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -403,7 +410,7 @@ img {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.nav-list-link:hover, .nav-list-link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--accent-color);
 }
 
@@ -423,21 +430,21 @@ img {
   background-color: var(--accent-color);
 }
 
-.nav-contact-list {
+.contact-list {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.nav-contact-list-item {
+.contact-list__item {
   margin-right: 50px;
 }
 
-.nav-contact-list-item:last-child {
+.contact-list__item:last-child {
   margin-right: 0;
 }
 
-.header-contact-link {
+.contact-list__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -450,18 +457,18 @@ img {
   color: var(--secondary-text-color);
 }
 
-.header-contact-link:hover, .header-contact-link:focus {
+.contact-list__link:hover, .contact-list__link:focus {
   color: var(--accent-color);
 }
 
-.header-contact-link-icon {
+.contact-list__icon {
   margin-right: 10px;
   fill: var(--secondary-text-color);
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
-.header-contact-link:hover .header-contact-link-icon,
-.header-contact-link:focus .header-contact-link-icon {
+.contact-list__link:hover .contact-list__icon,
+.contact-list__link:focus .contact-list__icon {
   fill: var(--accent-color);
 }
 
@@ -652,10 +659,6 @@ img {
 .footer > .container {
   display: flex;
   align-items: baseline;
-}
-
-.logo-text-footer {
-  color: var(--light-text-color);
 }
 
 .footer-address {
