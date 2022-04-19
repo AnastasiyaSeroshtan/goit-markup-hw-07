@@ -8,13 +8,13 @@
     margin-top: -30px;
   }
   
-  .benefits-list-item {
+  .benefits-list__item{
     flex-basis: calc((100% - 120px) / 4);
     margin-left: 30px;
     margin-top: 30px;
   }
   
-  .benefits-list-item-icon {
+  .benefits-list__icon{
     display: flex;
     width: 270px;
     height: 120px;
@@ -25,14 +25,14 @@
     background: var(--btn-portfolio-bg-color);
   }
   
-  .benefits-list-title {
+  .benefits-list__title {
     margin-bottom: 10px;
     @include font(14px, 700, 1.14);
     text-transform: uppercase;
     text-align: left;
   }
   
-  .benefits-description {
+  .benefits-list__description {
     @include font(14px, 400, 1.71);
     color: var(--secondary-text-color);
   }
