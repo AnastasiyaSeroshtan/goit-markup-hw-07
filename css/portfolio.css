@@ -190,6 +190,15 @@ img {
   margin-right: 0;
 }
 
+.subscription {
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--light-text-color);
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -403,12 +412,9 @@ img {
 }
 
 .footer {
-  background-color: var(--dark-background-color);
-}
-
-.footer {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--dark-background-color);
 }
 
 .footer > .container {
@@ -416,20 +422,20 @@ img {
   align-items: baseline;
 }
 
-.footer-address {
+.address {
   margin-top: 20px;
   font-style: normal;
 }
 
-.footer-address-list-item {
+.address__item {
   margin-bottom: 9px;
 }
 
-.footer-address-list-item:last-child {
+.address__item:last-child {
   margin-bottom: 0;
 }
 
-.footer-address-list-link {
+.address__link {
   text-decoration: none;
   font-size: 14px;
   font-weight: 400;
@@ -438,12 +444,11 @@ img {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.footer-address-list-link:hover,
-.footer-address-list-link:focus {
+.address__link:hover, .address__link:focus {
   color: var(--accent-color);
 }
 
-.footer-contact-link {
+.address__link_color-white {
   color: var(--footer-contact-link-color);
 }
 
@@ -451,29 +456,20 @@ img {
   margin-left: 70px;
 }
 
-.subscription {
-  margin-bottom: 30px;
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--light-text-color);
-}
-
-.subscribe-form {
+.subscribtion-form {
   margin-left: 93px;
 }
 
-.subscribe-form-name {
+.subscribtion-form__title {
   margin-bottom: 20px;
 }
 
-.subscribe-form-wrapper {
+.subscribe-form__wrapper {
   position: relative;
   display: flex;
 }
 
-.subscribe-form-email {
+.subscribe-form__email {
   outline: none;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -491,7 +487,7 @@ img {
   align-items: center;
 }
 
-.subscribe-form-email::placeholder {
+.subscribe-form__email::placeholder {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
@@ -500,7 +496,7 @@ img {
   color: var(--footer-form-text);
 }
 
-.subscribe-form-btn {
+.subscribe-form__btn {
   margin-left: 12px;
   padding-left: 29px;
   padding-right: 62px;
@@ -519,7 +515,7 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.subscribe-form-icon {
+.subscribe-form__icon {
   position: absolute;
   right: 28px;
   top: 13px;
