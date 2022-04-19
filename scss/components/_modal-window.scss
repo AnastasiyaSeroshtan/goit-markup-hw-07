@@ -1,7 +1,3 @@
-.backdrop.is-hidden .modal {
-    transform: scale(1.1);
-  }
-  
   .modal {
     position: absolute;
     top: 50%;
@@ -14,6 +10,10 @@
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     padding: 40px;
+
+    .backdrop.is-hidden & {
+      transform: scale(1.1);
+    }
   }
   
   .modal-btn-close {
@@ -31,10 +31,11 @@
     padding: 0;
     cursor: pointer;
     transition: fill var(--transition-duration) var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+      outline: none;
+      fill: var(--accent-color);
+    }
   }
   
-  .modal-btn-close:hover,
-  .modal-btn-close:focus {
-    outline: none;
-    fill: var(--accent-color);
-  }

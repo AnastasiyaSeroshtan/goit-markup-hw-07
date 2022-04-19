@@ -13,19 +13,20 @@
     justify-content: center;
     align-items: center;
     transition: background-color var(--transition-duration) var(--transition-timing-function);
-  }
-  
-  .list-social-link:hover,
-  .list-social-link:focus {
-    background-color: var(--accent-color);
+
+    &:hover,
+    &:focus {
+      background-color: var(--accent-color);
+    }
   }
   
   .list-social-link-icon {
     fill: var(--icon-social-color);
     transition: fill var(--transition-duration) var(--transition-timing-function);
+
+    .list-social-link:hover &,
+    .list-social-link:focus & {
+      fill: var(--light-text-color);
+    }
   }
   
-  .list-social-link:hover .list-social-link-icon,
-  .list-social-link:focus .list-social-link-icon {
-    fill: var(--light-text-color);
-  }
