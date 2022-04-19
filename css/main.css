@@ -9,6 +9,7 @@
   --primary-background-color: #ffffff;
   --secondary-background-color: #e5e5e5;
   --dark-background-color: #2f303a;
+  --footer-form-text:rgba(255, 255, 255, 0.6);
   --bg-images-lianer-gradient: rgba(47, 48, 58, 0.4);
   --bg-activity-section: rgba(47, 48, 58, 0.8);
   --bg-cards-portfolio: rgba(33, 150, 243, 0.9);
@@ -401,11 +402,11 @@ img {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus,
-.active-page,
-.header-contact-link:hover,
-.header-contact-link:focus {
+.nav-list-link:hover, .nav-list-link:focus {
+  color: var(--accent-color);
+}
+
+.active-page {
   color: var(--accent-color);
 }
 
@@ -445,6 +446,10 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+}
+
+.header-contact-link:hover, .header-contact-link:focus {
+  color: var(--accent-color);
 }
 
 .header-contact-link-icon {
@@ -621,13 +626,13 @@ img {
   transition: fill var(--transition-duration) var(--transition-timing-function);
 }
 
+.clients-list-link-icon {
+  fill: var(--icon-social-color);
+}
+
 .clients-list-link:hover .clients-list-link-icon,
 .clients-list-link:focus .clients-list-link-icon {
   fill: var(--accent-color);
-}
-
-.clients-list-link-icon {
-  fill: var(--icon-social-color);
 }
 
 .footer {
@@ -736,7 +741,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: var(--dark-background-color);
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-form-text);
   font-size: 16px;
   line-height: 1.25;
   align-items: center;
@@ -748,7 +753,7 @@ img {
   line-height: 1.25;
   align-items: center;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-form-text);
 }
 
 .subscribe-form-btn {

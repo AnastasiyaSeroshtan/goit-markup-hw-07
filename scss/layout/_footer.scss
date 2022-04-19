@@ -70,10 +70,10 @@
   
   .subscription-list-item {
     margin-right: 10px;
-  }
-  
-  .subscription-list-item:last-child {
-    margin-right: 0;
+
+    &:last-child {
+      margin-right: 0;
+    }
   }
   
   .subscription-list-icon {
