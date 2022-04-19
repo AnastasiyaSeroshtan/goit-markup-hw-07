@@ -395,13 +395,6 @@ img {
   background: var(--primary-background-color);
 }
 
-.portfolio-list-wrapper {
-  padding: 20px 24px;
-  border: 1px solid var(--border-img-color);
-  border-top: none;
-  background: var(--primary-background-color);
-}
-
 .portfolio-cards__title {
   margin-bottom: 8px;
   font-size: 18px;
